@@ -49,9 +49,9 @@ const OperationRaw = styled(Box).attrs({
 `
 
 const Address = ({ value }: { value: string }) => {
-    if (!value) {
-      return <Box />
-    }
+  if (!value) {
+    return <Box />
+  }
 
   const addrSize = value.length / 2
 
